@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  background-image: url("https://th.bing.com/th/id/OIG1.SBo930RwskQFqw643oeX?pid=ImgGn");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+nav {
+  background-color: white;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+nav li {
+  height: 50px;
+}
+
+nav a {
+  height: 100%;
+  padding: 0 30px;
+  display: flex;
+  align-items: center;
+  color: black;
+}
+
+nav a:hover {
+  background-color: #f0f0f0;
+}
+
+nav li:first-child {
+  margin-right: auto;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 250px;
+  z-index: 999;
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.sidebar li {
+  width: 100%;
+}
+
+.sidebar a {
+  width: 100%;
+}
+
+.menu-button {
+  display: none;
+}
+
+@media (max-width: 800px) {
+  .hideOnMobile {
+    display: none;
+  }
+  .menu-button {
+    display: block;
+  }
+}
+
+@media (max-width: 400px) {
+  .sidebar {
+    width: 100%;
+  }
+}
+
+h1 {
+  margin-left: 10px;
+  font-size: 40px;
+  inline-size: 1.8;
+}
+
+.d-one {
+  position: relative;
+  left: 40px;
+  margin-left: 20px;
+  font-size: 20px;
+  inline-size: 1.8;
+}
+
+.vid-one {
+  position: relative;
+  right: 5%;
+  max-width: 100%;
+}
+
+.d-two p {
+  margin-left: 20px;
+  font-size: 20px;
+  inline-size: 1.8;
+  position: relative;
+  top: 40px;
+  left: 3%;
+}
+
+.vid-two {
+  position: relative;
+  left: 150px;
+  bottom: -60px;
+  max-width: 100%;
+}
+
+.d-three {
+  margin-left: 20px;
+  font-size: 20px;
+  inline-size: 1.8;
+  position: relative;
+  top: -1090px;
+  left: 330px;
+}
+
+.d-four {
+  margin-left: 20px;
+  font-size: 20px;
+  inline-size: 1.8;
+  position: relative;
+  bottom: 1070px;
+  left: 330px;
+}
+
+.vid-three {
+  position: relative;
+  bottom: 709px;
+  right: -8px;
+  max-width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+  .d-one,
+  .d-two p,
+  .d-three,
+  .d-four {
+    font-size: 0.9rem;
+  }
+}

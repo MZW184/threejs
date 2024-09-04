@@ -5,7 +5,7 @@
 
 body {
   min-height: 100vh;
-  background-image: url("https://th.bing.com/th/id/OIG2.xP4AzzpHhwD3BPt6nEwA?pid=ImgGn");
+  background-image: url("https://th.bing.com/th/id/OIG3.vfA6sae3Bw8J13WSmvwT?pid=ImgGn");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -85,57 +85,3 @@ nav li:first-child {
     width: 100%;
   }
 }
-
-header {
-  font-size: 30px;
-  opacity: 0.5;
-  padding: 0 20px;
-  line-height: 1.7;
-}
-
-h2 {
-  font-size: 30px;
-  opacity: 0.7;
-  padding: 0 20px;
-  line-height: 1.5;
-}
-
-.box-one p {
-  font-size: 20px;
-  opacity: 0.7;
-  padding: 0 20px;
-  line-height: 1.9;
-}
-
-.one{
- /* position: relative;
-  top: -300px;
-  right: -650px;*/
-  
-}
-
-.two{
-  position: absolute;
-  top: 820px;
-  left: 480px;
-}
-
-.three{
-  position: relative;
-  right: 240px;
-  bottom: 120px;
-}
-
-.vid-three-p p{
-  font-size: 20px;
-  opacity: 0.7;
-  padding: 0 20px;
-  line-height: 1.9;
-  position: relative;
-  bottom: 570px;
-  left: 610px;
-}
-
-.four{}
-
-

@@ -7,7 +7,7 @@ body {
   min-height: 100vh;
   background-image: url("https://th.bing.com/th/id/OIG2.xP4AzzpHhwD3BPt6nEwA?pid=ImgGn");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
 }
 
 nav {
@@ -107,35 +107,71 @@ h2 {
   line-height: 1.9;
 }
 
-.one{
- /* position: relative;
-  top: -300px;
-  right: -650px;*/
-  
-}
-
-.two{
+.one {
   position: absolute;
-  top: 820px;
-  left: 480px;
+  bottom: -800px;
+  left: -20px;
 }
 
-.three{
+.two {
   position: relative;
-  right: 240px;
+  left: 3%;
   bottom: 120px;
 }
 
-.vid-three-p p{
+.vid-two-p p {
   font-size: 20px;
   opacity: 0.7;
   padding: 0 20px;
   line-height: 1.9;
   position: relative;
-  bottom: 570px;
-  left: 610px;
+  bottom: 240px;
+  right: 3px;
 }
 
-.four{}
+.game-p p {
+  font-size: 20px;
+  opacity: 0.7;
+  padding: 0 20px;
+  line-height: 1.9;
+  position: relative;
+  bottom: 220px;
+  right: -22%;
+  z-index: 2;
+}
 
+.links-to-projects {
+  position: relative;
+  bottom: 151px;
+  font-size: 18px;
+  padding: 10px;
+  line-height: 1.5;
+  background-color: rgba(0, 0, 0, 0.111);
+}
 
+.links-to-projects a {
+  color: #0074d9;
+  text-decoration: none;
+}
+
+.links-to-projects a:hover {
+  color: #ff4136;
+  text-decoration: underline;
+}
+
+a.button-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ff851b;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+a.button-link:hover {
+  background-color: #ff4136;
+}
+
+.links-to-projects a {
+  cursor: pointer;
+}

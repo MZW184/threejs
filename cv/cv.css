@@ -5,7 +5,7 @@
 
 body {
   min-height: 100vh;
-  background-image: url("https://th.bing.com/th/id/OIG3.vfA6sae3Bw8J13WSmvwT?pid=ImgGn");
+  background-image: url("");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -84,4 +84,51 @@ nav li:first-child {
   .sidebar {
     width: 100%;
   }
+}
+
+video {
+  position: relative;
+  left: 37%;
+  bottom: 38px;
+}
+
+.resume-heading {
+  font-family: sans-serif;
+  font-size: 110px;
+  font-weight: bold;
+  position: relative;
+  bottom: 510px;
+  left: 20px;
+  line-height: 1.5;
+  opacity: 0.5;
+}
+
+.first-p {
+  font-family: sans-serif;
+  font-size: 30px;
+  position: relative;
+  bottom: 525px;
+  left: 20px;
+  line-height: 1.5;
+  opacity: 0.8;
+}
+
+.first-box {
+  font-family: sans-serif;
+  font-size: 20px;
+  position: relative;
+  bottom: 520px;
+  left: 20px;
+  line-height: 1.5;
+  padding: 10px;
+}
+
+.second-box {
+  font-family: sans-serif;
+  font-size: 20px;
+  position: relative;
+  bottom: 520px;
+  left: 20px;
+  line-height: 1.5;
+  padding: 10px;
 }

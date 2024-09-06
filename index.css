@@ -8,6 +8,7 @@ body {
   background-image: url("https://th.bing.com/th/id/OIG3.vfA6sae3Bw8J13WSmvwT?pid=ImgGn");
   background-repeat: no-repeat;
   background-size: cover;
+  overflow: hidden;
 }
 
 nav {
@@ -33,10 +34,11 @@ nav a {
   display: flex;
   align-items: center;
   color: black;
+  transition: background-color 0.3s ease;
 }
 
 nav a:hover {
-  background-color: #f0f0f0;
+  background-color: #f0f0f099;
 }
 
 nav li:first-child {
@@ -83,5 +85,163 @@ nav li:first-child {
 @media (max-width: 400px) {
   .sidebar {
     width: 100%;
+  }
+}
+
+.heading h1 {
+  font-size: 120px;
+  padding: 20px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.heading p {
+  font-size: 23px;
+  position: relative;
+  bottom: 28px;
+  left: 50px;
+  opacity: 0.6;
+}
+
+.resume a {
+  text-decoration: none;
+  color: maroon;
+  font-weight: bold;
+  font-size: 18px;
+  position: relative;
+  bottom: 26px;
+  left: 50px;
+  opacity: 0.6;
+}
+
+.resume a:hover {
+  text-decoration: underline;
+}
+
+.name {
+  position: relative;
+}
+
+.shake {
+  animation: shake 0.5s ease infinite;
+  cursor: pointer;
+}
+
+@keyframes shake {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  25%,
+  75% {
+    transform: translateX(-5px);
+  }
+  50% {
+    transform: translateX(5px);
+  }
+}
+
+.name h2 {
+  font-size: 50px;
+  padding: 20px;
+  opacity: 0.6;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  position: relative;
+  top: 250px;
+}
+.floating-word {
+  position: absolute;
+  font-size: 1.5rem;
+  font-weight: bold;
+  animation: float 10s infinite;
+  opacity: 0.6;
+}
+
+#word-html {
+  top: 10vh;
+  left: 10vw;
+}
+#word-css {
+  top: 30vh;
+  left: 40vw;
+}
+#word-js {
+  top: 50vh;
+  left: 70vw;
+}
+#word-react {
+  top: 20vh;
+  left: 80vw;
+}
+#word-c {
+  top: 70vh;
+  left: 20vw;
+}
+#word-blueprints {
+  top: 40vh;
+  left: 60vw;
+}
+#word-unreal {
+  top: 60vh;
+  left: 30vw;
+}
+#word-webdev {
+  top: 15vh;
+  left: 50vw;
+}
+#word-npm {
+  top: 35vh;
+  left: 20vw;
+}
+#word-nodejs {
+  top: 55vh;
+  left: 70vw;
+}
+#word-terminal {
+  top: 25vh;
+  left: 90vw;
+}
+#word-gamedev {
+  top: 65vh;
+  left: 40vw;
+}
+#word-blender {
+  top: 45vh;
+  left: 80vw;
+}
+#word-unity {
+  top: 75vh;
+  left: 10vw;
+}
+#word-cpp {
+  top: 5vh;
+  left: 60vw;
+}
+#word-learning {
+  top: 85vh;
+  left: 30vw;
+}
+#word-api {
+  top: 75vh;
+  left: 70vw;
+}
+#word-python {
+  top: 5vh;
+  left: 20vw;
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(50vw, 0);
+  }
+  50% {
+    transform: translate(0, 50vh);
+  }
+  75% {
+    transform: translate(-50vw, 0);
   }
 }

@@ -5,9 +5,9 @@
 
 body {
   min-height: 100vh;
-  background-image: url("");
+  background-image: url("https://th.bing.com/th/id/OIG3.Q877ASjVETU1WLDmFSzL?w=1024&h=1024&rs=1&pid=ImgDetMain");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
 }
 
 nav {
@@ -88,8 +88,8 @@ nav li:first-child {
 
 video {
   position: relative;
-  left: 37%;
-  bottom: 38px;
+  left: 5%;
+  top: 340px;
 }
 
 .resume-heading {
@@ -126,9 +126,120 @@ video {
 .second-box {
   font-family: sans-serif;
   font-size: 20px;
-  position: relative;
-  bottom: 520px;
-  left: 20px;
+  position: absolute;
+  top: 900px;
+  left: 40px;
   line-height: 1.5;
-  padding: 10px;
+}
+
+.second-box h2 {
+  line-height: 1.8;
+  font-size: 30px;
+  font-weight: bold;
+  opacity: 0.8;
+}
+
+.second-box h3 {
+  line-height: 1.5;
+  font-size: 25px;
+  opacity: 0.7;
+}
+.second-box .job-paragraph {
+  padding: 20px;
+  position: relative;
+}
+
+.skills {
+  position: relative;
+  left: 40%;
+  bottom: 670px;
+  font-family: sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+  margin-top: 20px;
+}
+
+.skills h2 {
+  opacity: 0.8;
+}
+
+.round-button {
+  display: inline-block;
+  padding: 5px 10px;
+  border: 2px solid #333333c2;
+  border-radius: 50px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  transition: background-color 0.5s ease;
+}
+
+.round-button:hover {
+  background-color: #333333c2;
+  color: #fff;
+}
+
+.languages {
+  position: relative;
+  left: 40%;
+  bottom: 650px;
+  font-family: sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.languages p {
+  font-size: 18px;
+}
+
+.languages h2 {
+  opacity: 0.8;
+}
+
+.circle {
+  font-size: 15px;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.education {
+  position: relative;
+  left: 40%;
+  bottom: 670px;
+  font-family: sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.education h2 {
+  opacity: 0.8;
+}
+
+.cert {
+  padding: 5px;
+}
+
+.reference {
+  font-family: sans-serif;
+  font-size: 20px;
+  position: relative;
+  top: 350px;
+  left: 25px;
+  line-height: 1.5;
+  padding: 20px;
+}
+
+.reference h2 {
+  opacity: 0.8;
+}
+
+.reference a {
+  opacity: 0.6;
+}
+
+.reference a:hover {
+  background-color: #333333c2;
+  color: #fff;
 }

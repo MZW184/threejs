@@ -7,7 +7,7 @@ body {
   min-height: 100vh;
   background-image: url("https://th.bing.com/th/id/OIG2.xP4AzzpHhwD3BPt6nEwA?pid=ImgGn");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
 }
 
 nav {
@@ -78,10 +78,30 @@ nav li:first-child {
   .menu-button {
     display: block;
   }
+
+  .gameVideo .one {
+    display: none;
+  }
+
+  .projectVideo .two {
+    display: none;
+  }
+
+  .game-p {
+    position: relative;
+    top: 10px;
+  }
 }
 
 @media (max-width: 400px) {
   .sidebar {
+    width: 100%;
+  }
+
+  .gameVideo .one {
+    width: 100%;
+  }
+  .projectVideo .two {
     width: 100%;
   }
 }
@@ -100,49 +120,31 @@ h2 {
   line-height: 1.5;
 }
 
-.box-one p {
+.box-one p,
+.vid-two-p,
+.game-p {
   font-size: 20px;
-  opacity: 0.7;
-  padding: 0 20px;
-  line-height: 1.9;
+  padding: 20px;
 }
 
-.one {
-  position: absolute;
-  bottom: -800px;
-  left: -20px;
-}
-
-.two {
+.projectVideo .two {
   position: relative;
-  left: 3%;
-  bottom: 120px;
+  bottom: 100px;
+  left: 20px;
 }
 
-.vid-two-p p {
-  font-size: 20px;
-  opacity: 0.7;
-  padding: 0 20px;
-  line-height: 1.9;
+.gameVideo .one {
   position: relative;
-  bottom: 240px;
-  right: 3px;
+  top: 380px;
+  right: 70px;
 }
 
-.game-p p {
-  font-size: 20px;
-  opacity: 0.7;
-  padding: 0 20px;
-  line-height: 1.9;
+.game-p {
   position: relative;
-  bottom: 220px;
-  right: -22%;
-  z-index: 2;
+  bottom: 400px;
 }
 
 .links-to-projects {
-  position: relative;
-  bottom: 151px;
   font-size: 18px;
   padding: 10px;
   line-height: 1.5;
@@ -152,6 +154,7 @@ h2 {
 .links-to-projects a {
   color: #0074d9;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .links-to-projects a:hover {
@@ -170,8 +173,4 @@ a.button-link {
 }
 a.button-link:hover {
   background-color: #ff4136;
-}
-
-.links-to-projects a {
-  cursor: pointer;
 }
